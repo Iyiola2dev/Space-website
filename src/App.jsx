@@ -8,7 +8,7 @@ import Technology from "./pages/Technology";
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-[url('https://res.cloudinary.com/dtlejpoxq/image/upload/v1724247731/space/background-home-mobile_ockwvn.jpg')] md:bg-[url('https://res.cloudinary.com/dtlejpoxq/image/upload/v1724247732/space/background-home-tablet_rptx9v.jpg')] lg:bg-[url('https://res.cloudinary.com/dtlejpoxq/image/upload/v1724247731/space/background-home-desktop_lcdlmr.jpg')]">
+    <div className=" min-h-screen">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}></Route>

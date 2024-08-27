@@ -14,8 +14,12 @@ export default {
       backgroundImage:{
         "desktop": 'url("../src/assets/home/background-home-desktop.jpg")',
         "tablet": "url('../src/assets/home/background-home-tablet.jpg')",
-        "mobile": "url('../src/assets/home/background-home-mobile.jpg')"
-      }
+        "mobile": "url('../src/assets/home/background-home-mobile.jpg')",
+        "destinatonMobile": 'url("../src/assets/destination/background-destination-mobile.jpg")',
+        "destinationTablet": 'url("../src/assets/destination/background-destination-tablet.jpg")',
+        "destinationDesktop": 'url("../src/assets/destination/background-destination-desktop.jpg")'
+      },
+    
     },
   },
   plugins: [],

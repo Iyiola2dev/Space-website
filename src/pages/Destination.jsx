@@ -16,15 +16,12 @@ const Destination = () => {
     setActiveTab(args);
     setIndex(args);
   };
-  // const {pathname} = useLocation()
-
-  // if(pathname === "/destination"){
-  //   return <Navigate to="/destination/moon " replace/>
-  // }
+ 
   return (
     <div className="bg-destinatonMobile  bg-cover bg-center mx-auto min-h-screen mt-[-6rem] md:bg-destinationTablet lg:bg-destinationDesktop flex flex-col pt-[5.5rem] md:pt-[6.5rem] md:pb-[5.5rem] gap-3 md:gap-7">
-      <h1 className="font-barlow-con text-lg text-white text-center md:text-left pl-8  ">
-        PICK YOUR DESTINATION
+      <h1 className="font-barlow-con text-lg text-white text-center md:text-left pl-8  flex gap-5 lg:pl-[10rem]">
+        <span className="text-[#ffffff]">01</span>
+        <span> PICK YOUR DESTINATION</span>
       </h1>
 
       <div className="flex flex-col items-center gap-3 lg:flex-row lg:px-8 xl:px-16 lg:gap-[7rem] xl:gap-[22rem] lg:justify-center lg:pt-[6rem]">

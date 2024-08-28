@@ -11,8 +11,8 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="" />
       </div>
-      <ul className=" hidden md:flex items-center justify-center md:gap-3 lg:gap-7 absolute py-6 lg:p-10 px-3 right-0 font-semibold bg-[rgba(255,255,255,0.04)] text-white text-lg lg:text-2xl">
-        <hr className="md:hidden lg:flex" />
+      <ul className=" hidden md:flex items-center justify-center md:gap-3 lg:gap-7 absolute py-6 lg:p-10 px-3 right-0 font-semibold bg-[rgba(255,255,255,0.04)] text-white text-lg lg:text-xl">
+        {/* <hr className="md:hidden lg:flex w-full border-white" /> */}
         <li className="p-3 hover:border-b-2 cursor-pointer transition">
           <Link to="/">00 Home</Link>
         </li>
@@ -40,8 +40,8 @@ const Navbar = () => {
 
       <div
         className={`absolute xl:hidden top-0 w-[70%] h-screen 
-         right-0 flex flex-col justify-center items-center navBar bg-gray-400/50 shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
-           isMenuOpen ? "opacity-100" : "opacity-0"
+         right-0 flex flex-col justify-center items-center navBar bg-white shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
+           isMenuOpen ? "flex" : "hidden"
          } `}
         style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
       >

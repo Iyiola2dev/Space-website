@@ -1,10 +1,7 @@
-
 import { destination } from "../data";
 
 const Moon = () => {
-
-
-    //Getting the moon data
+  //Getting the moon data
   const destintionData = destination.find((dest) => {
     dest.name.toLowerCase() === "moon";
   });

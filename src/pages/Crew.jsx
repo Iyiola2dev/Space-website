@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { crew } from "../../data.json";
+import AOS from "aos";
 
 const Crew = () => {
   const [crewData] = useState(crew);
@@ -13,6 +14,10 @@ const Crew = () => {
     setActiveTab(args);
     setIndex(args);
   };
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
 
   return (
     <div className="bg-crewMobile md:bg-crewTablet lg:bg-crewDesktop bg-cover bg-center mx-auto min-h-screen mt-[-6rem] flex flex-col pt-[7rem]  md:pb-[5.5rem] gap-10 lg:pt-[10rem] ">
@@ -22,7 +27,7 @@ const Crew = () => {
       </h1>
 
       <div className="flex flex-col md:flex-col-reverse items-center  lg:items-start gap-3 md:gap-[7rem]  lg:flex-row-reverse lg:px-8 xl:px-16 lg:gap-[7rem] xl:gap-[22rem] lg:justify-center lg:pt-[6rem]">
-        <div className="w-[327px] h-[223px] flex flex-col justify-center items-center md:py-10">
+        <div data-aos="fade-left" className="w-[327px] h-[223px] flex flex-col justify-center items-center md:py-10">
           <img
             className="h-[250px] w-[177.12px] md:h-[400px] md:w-[300px] "
             src={currentCrew.images.webp}

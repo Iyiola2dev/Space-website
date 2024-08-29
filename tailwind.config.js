@@ -17,7 +17,10 @@ export default {
         "mobile": "url('../src/assets/home/background-home-mobile.jpg')",
         "destinatonMobile": 'url("../src/assets/destination/background-destination-mobile.jpg")',
         "destinationTablet": 'url("../src/assets/destination/background-destination-tablet.jpg")',
-        "destinationDesktop": 'url("../src/assets/destination/background-destination-desktop.jpg")'
+        "destinationDesktop": 'url("../src/assets/destination/background-destination-desktop.jpg")',
+        "crewMobile": 'url("../src/assets/crew/background-crew-mobile.jpg")',
+        "crewTablet": 'url("../src/assets/crew/background-crew-tablet.jpg")',
+        "crewDesktop": 'url("../src/assets/crew/background-crew-desktop.jpg")'
       },
     
     },

@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
-import Moon from "./Moon";
-import Mars from "./Mars";
-import Europa from "./Europa";
-import Titan from "./Titan";
+import { useState } from "react";
+
 import destination from "../../data.json";
 
 const Destination = () => {
@@ -16,7 +12,7 @@ const Destination = () => {
     setActiveTab(args);
     setIndex(args);
   };
- 
+
   return (
     <div className="bg-destinatonMobile  bg-cover bg-center mx-auto min-h-screen mt-[-6rem] md:bg-destinationTablet lg:bg-destinationDesktop flex flex-col pt-[5.5rem] md:pt-[6.5rem] md:pb-[5.5rem] gap-3 md:gap-7">
       <h1 className="font-barlow-con text-lg text-white text-center md:text-left pl-8  flex gap-5 lg:pl-[10rem]">

@@ -40,7 +40,7 @@ const Navbar = () => {
 
       <div
         className={`absolute xl:hidden top-0 w-[70%] h-screen 
-         right-0 flex flex-col justify-center items-center navBar bg-white shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
+         right-0 flex flex-col justify-center items-center navBar bg-gray-500/20 shadow-lg backdrop-blur-lg text-white gap-2 font-semibold text-lg transform transition-transform ${
            isMenuOpen ? "flex" : "hidden"
          } `}
         style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}

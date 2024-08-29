@@ -18,7 +18,7 @@ const Crew = () => {
 
   return (
     <div className="bg-crewMobile md:bg-crewTablet lg:bg-crewDesktop bg-cover bg-center mx-auto min-h-screen mt-[-6rem] flex flex-col pt-[7rem]  md:pb-[5.5rem] gap-10 lg:pt-[10rem] ">
-      <h1 className="font-barlow-con text-lg text-white text-center md:pl-8 flex gap-5 lg:pl-[4rem] xl:pl-[5.5rem] 2xl:pl-[10rem] items-center md:items-start md:text-left">
+      <h1 className="font-barlow-con text-lg text-white text-center pl-8 flex gap-5 lg:pl-[4rem] xl:pl-[5.5rem] 2xl:pl-[10rem] items-center md:items-start md:text-left">
         <span>02</span>
         <span>MEET YOUR CREW</span>
       </h1>

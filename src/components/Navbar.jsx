@@ -45,16 +45,16 @@ const Navbar = () => {
          } `}
         style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
       >
-        <div className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
+        <div  onClick={() => setIsMenuOpen(!isMenuOpen)} className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
           <Link to="/">00 Home</Link>
         </div>
-        <div className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
+        <div  onClick={() => setIsMenuOpen(!isMenuOpen)} className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
           <Link to="/destination"> 01 Destination</Link>
         </div>
-        <div className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
+        <div  onClick={() => setIsMenuOpen(!isMenuOpen)} className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
           <Link to="/crew">02 Crew</Link>
         </div>
-        <div className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
+        <div  onClick={() => setIsMenuOpen(!isMenuOpen)} className="w-full text-left p-4 hover:bg-gray-400 hover:text-white transition-all cursor-pointer">
           <Link to="/technology"> 03 Technology</Link>
         </div>
       </div>
